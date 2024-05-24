@@ -1,0 +1,83 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.conteiner {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -------- task 7 --------- */
+.header {
+  padding: 0 50px;
+  background-color: #808080;
+}
+.header-conteiner {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  margin-left: auto;
+}
+.list-item {
+  margin-right: 30px;
+}
+.link-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  color: #e0e0e0;
+  text-decoration: none;
+}
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.hero-conteiner {
+}
+.title {
+  color: #ff9933;
+  margin-bottom: 10px;
+}
+.text {
+  margin-bottom: 40px;
+}
+
+.list-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.btn {
+  background-color: #ff9933;
+  color: #ffe5ce;
+  border: 0;
+  padding: 8px;
+  width: 150px;
+  border-radius: 20px;
+  cursor: pointer;
+}

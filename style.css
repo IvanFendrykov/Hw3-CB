@@ -1,0 +1,174 @@
+body {
+  font-family: Arial;
+  color: grey;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.conteiner {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*------------ task 1 ------------*/
+
+.list-box {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  background-color: #0000ff;
+  padding: 8px;
+  border-right: 2px solid #000000;
+}
+.links {
+  color: #ffffff;
+}
+
+/*--------- task 2 --------- */
+.box {
+  display: flex;
+  justify-content: end;
+  width: 800px;
+  padding: 10px;
+  border: 2px solid #000000;
+}
+.text {
+  margin: 0;
+  width: 400px;
+  background-color: #e0e0e0;
+  color: #000000;
+}
+/*--------- task 3 ---------*/
+
+.list-links {
+  display: flex;
+  gap: 30px;
+  padding: 9px;
+  background-color: #fada08;
+}
+
+.items-links {
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links-image {
+  padding: 8px;
+}
+.link-facebook {
+  background-color: #0000ff;
+}
+.link-facebook:hover,
+.link-facebook:focus {
+  background-color: #000099;
+}
+.link-youtube {
+  background-color: #ff0000;
+}
+.link-youtube:hover,
+.link-youtube:focus {
+  background-color: #990000;
+}
+.link-instagram {
+  background-color: #ffcccc;
+}
+.link-instagram:hover,
+.link-instagram:focus {
+  background-color: #ffe5cc;
+}
+.link-twitter {
+  background-color: #33ffff;
+}
+.link-twitter:hover,
+.link-twitter:focus {
+  background-color: #cce5ff;
+}
+.image {
+  width: 32px;
+  height: 32px;
+}
+/* -------- task 4 ---------- */
+.title-text {
+  text-align: center;
+}
+/* -------- task 5 ---------- */
+
+.title {
+  color: #000000;
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 10px;
+  /* margin: 0; */
+}
+.section {
+  padding: 10px 0 5px;
+  border-bottom: 1px solid;
+}
+.title-task5 {
+  margin-bottom: 20px;
+  color: #000000;
+  text-decoration: underline;
+}
+.title-topik1 {
+  word-spacing: 20px;
+}
+.title-topik2 {
+  letter-spacing: 16px;
+}
+.text-task5 {
+  margin-bottom: 20px;
+  color: #000000;
+}
+.text-cursive {
+  font-style: italic;
+  font-size: 30px;
+  background-color: #cce5ff;
+}
+.text-bold {
+  font-weight: 900;
+  background-color: #ffcccc;
+}
+.text-indent {
+  text-indent: 50px;
+  background-color: #fada08;
+}
+.button {
+  width: 100px;
+  padding: 10px;
+}
+.btn {
+  padding: 10px 0 10px 20px;
+  text-align: end;
+}
+/* ------task 6 --------- */
+
+.text-conteiner {
+  color: #000000;
+  background-color: #ff9933;
+  text-align: center;
+  font-size: 20px;
+}
+.discounts {
+  font-size: 24px;
+  font-weight: bold;
+}
+.link-text {
+  color: #000000;
+}
